@@ -14,6 +14,7 @@ public class App
 
     public static String fizzBuzz(int i)
     {
+        if (i%3!=0 ) return Integer.toString(i);
         return("FIZZ");
     }
 }
