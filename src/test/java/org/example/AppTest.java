@@ -39,9 +39,8 @@ public class AppTest
 
     public void testInitial()
     {
-        assertEquals("FIZZ",fizzBuzz(3));
+        assertEquals("Fizz",fizzBuzz(3));
         assertEquals("2", fizzBuzz(2));
-        assertEquals("Buzz", fizzBuzz(5));
         assertEquals("Buzz", fizzBuzz(5));
         assertEquals("FizzBuzz", fizzBuzz(15));
     }
